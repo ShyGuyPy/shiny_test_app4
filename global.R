@@ -43,6 +43,9 @@ source("code/functions/display/date_func.R", local = TRUE)
 source("code/functions/display/warning_color_func.R", local = TRUE)
 source("code/functions/display/warning_color_map_func.R", local = TRUE)#this is a lazy Friday fix that should be changed later
 #--------------------------------------------------------------------------------
+#functions from 2018_DroughOps_zsmith
+source("code/functions/zach's/gen_plots_func.R")
+#--------------------------------------------------------------------------------
 # Make the reservoir objects and reservoir time series df's
 #--------------------------------------------------------------------------------
 source("code/server/reservoirs_make.R", local = TRUE) 
