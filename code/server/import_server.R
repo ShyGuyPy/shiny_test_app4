@@ -39,7 +39,7 @@ hourly.df <- reactive({
 })
 #------------------------------------------------------------------------------
 daily.df <- reactive({
-  daily.df <- file.path(working.data.dir(), "10_day_test/10_day_test.csv") %>%  #"flows_obs/flow_daily_cfs.csv") %>% 
+  daily.df <- file.path(working.data.dir(), "ten_day_test/ten_day_test.csv") %>%  #"flows_obs/flow_daily_cfs.csv") %>% 
     data.table::fread(data.table = FALSE,
                       na.strings = na.replace) %>% 
     dplyr::filter(!is.na(site)) %>% 
