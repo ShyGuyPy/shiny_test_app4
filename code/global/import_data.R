@@ -112,6 +112,6 @@ pat.ts.df00 <- data.table::fread(paste(ts_path, "drex2018_output_pat.csv", sep =
 
 #------------------------------
 #load in test data for ten day
-ten_day.df <- data.table::fread(file.path(ts_path, "/ten_day_test/ten_day_test.csv", sep=""),data.table = FALSE) %>%
-  tidyr::spread(site, flow) 
+ten_day.df <- data.table::fread(file.path(ts_path, "/ten_day_test/ten_day_test.csv", sep=""),data.table = FALSE)
+ 
                                         
