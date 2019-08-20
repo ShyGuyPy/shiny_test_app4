@@ -23,7 +23,7 @@ shinyServer(function(input, output, session) {
   
   #long term tab
   
-  #download and visualize tab
+  source("code/server/demands/demands_server.R", local=TRUE)
   
   }) # end shinyServer
 

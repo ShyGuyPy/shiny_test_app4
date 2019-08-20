@@ -114,7 +114,7 @@ actionButton("write_ts",
       source("code/ui/one_day_operations.R", local = TRUE)$value,
       source("code/ui/ten_day_operations.R", local = TRUE)$value,
       source("code/ui/long_term_operations.R", local = TRUE)$value,
-      source("code/ui/download_and_visualize.R", local = TRUE)$value
+      source("code/ui/demands.R", local = TRUE)$value
       
       )
       
