@@ -116,6 +116,7 @@ ten_day.df <- data.table::fread(file.path(ts_path, "/ten_day_test/ten_day_test.c
  
 #------------------------------
 #load in data for demands from Sarah's Drupal site
-demands_raw.df <- data.table::fread("https://icprbcoop.org/drupal4/products/coop_pot_withdrawals.csv",
-                                    data.table = FALSE)
+if(url.exists("https://icprbcoop.org/drupal4/products/coop_pot_withdrawals.csv" == TRUE))
+{demands_raw.df <- data.table::fread("https://icprbcoop.org/drupal4/products/coop_pot_withdrawals.csv",
+                                    data.table = FALSE)}
                                         

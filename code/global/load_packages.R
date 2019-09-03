@@ -19,7 +19,8 @@ need <- c("shiny",
           "zoo",
           "sp",
           "leaflet",
-          "rgdal") 
+          "rgdal",
+          "RCurl") 
 # find out which packages are installed
 ins <- installed.packages()[, 1] 
 # check if the needed packages are installed
