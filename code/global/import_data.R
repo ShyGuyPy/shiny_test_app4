@@ -115,7 +115,7 @@ pat.ts.df00 <- data.table::fread(paste(ts_path, "drex2018_output_pat.csv", sep =
 ten_day.df <- data.table::fread(file.path(ts_path, "/ten_day_test/ten_day_test.csv", sep=""),data.table = FALSE)
  
 #------------------------------
-#load in data for demands from Sarah's Drupal site
+#load in data for demands from Sarah's Drupal site (if site is up, otherwise do nothing)
 if(url.exists("https://icprbcoop.org/drupal4/products/coop_pot_withdrawals.csv" == TRUE))
 {demands_raw.df <- data.table::fread("https://icprbcoop.org/drupal4/products/coop_pot_withdrawals.csv",
                                     data.table = FALSE)}
