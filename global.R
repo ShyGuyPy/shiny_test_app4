@@ -42,6 +42,7 @@ source("code/functions/display/display_graph_res_func.R", local = TRUE)
 source("code/functions/display/date_func.R", local = TRUE)
 source("code/functions/display/warning_color_func.R", local = TRUE)
 source("code/functions/display/warning_color_map_func.R", local = TRUE)#this is a lazy Friday fix that should be changed later
+source("code/functions/display/md_drought_map_func.R", local = TRUE)
 #--------------------------------------------------------------------------------
 #functions from 2018_DroughOps_zsmith
 source("code/functions/zach's/gen_plots_func.R")
@@ -124,5 +125,6 @@ western_region_t <- spTransform(western_dslv, CRS("+init=epsg:4326"))
 # my_data_s = fread(paste(ts_path,"va_shenandoah_stor.csv", sep = ""))
 # my_data_g = fread(paste(ts_path,"va_shenandoah_gw.csv", sep = ""))
 
-
+#calls function to get the latest version of the maryland drought map
+md_drought_map = md_drought_map_func(date_today0)#"https://mde.maryland.gov/programs/Water/droughtinformation/Currentconditions/PublishingImages/DroughtGraphsStarting2019jan31/Drought2019-05-31.png"
 

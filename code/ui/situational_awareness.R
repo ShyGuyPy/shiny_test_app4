@@ -91,7 +91,7 @@ tabPanel("Situational Awareness",
           htmlOutput(outputId="MD_title"),
           box(
             tags$img(alt="Drought Status Map:2019-05-31",
-                     src= "https://mde.maryland.gov/programs/Water/droughtinformation/Currentconditions/PublishingImages/DroughtGraphsStarting2019jan31/Drought2019-05-31.png",
+                     src= md_drought_map,#"https://mde.maryland.gov/programs/Water/droughtinformation/Currentconditions/PublishingImages/DroughtGraphsStarting2019jan31/Drought2019-05-31.png",
                      style="width:250px;height:150px;border:0;")
             #leafletOutput("mymap", height =140, width =300)
           ),
