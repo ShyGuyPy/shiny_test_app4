@@ -1,0 +1,12 @@
+name: shiny_test_app4
+title:
+username:
+account: shyguypy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1336507
+bundleId: 2506614
+url: https://shyguypy.shinyapps.io/shiny_test_app4/
+when: 1571260950.45918
+asMultiple: FALSE
+asStatic: FALSE

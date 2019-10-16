@@ -28,9 +28,9 @@ ins <- installed.packages()[, 1]
 (Get <-
     need[which(is.na(match(need, ins)))]) 
 # install the needed packages if they are not-installed
-if (length(Get) > 0) {
-  install.packages(Get)
-} 
+# if (length(Get) > 0) {
+#   install.packages(Get)
+# }
 # load the needed packages
 eval(parse(text = paste("library(", need, ")")))
 rm(Get, ins, need)
