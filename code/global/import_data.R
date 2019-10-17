@@ -112,7 +112,7 @@ pat.ts.df00 <- data.table::fread(paste(ts_path, "drex2018_output_pat.csv", sep =
 
 #------------------------------
 #load in test data for ten day
-ten_day.df <- data.table::fread(file.path(ts_path, "/ten_day_test/ten_day_test.csv", sep=""),data.table = FALSE)
+ten_day.df <- data.table::fread(file.path(ts_path, "ten_day_test/ten_day_test.csv", sep=""),data.table = FALSE)
  
 #------------------------------
 #load in data for demands from Sarah's Drupal site (if site is up, otherwise do nothing)
