@@ -5,9 +5,9 @@ account: shyguypy
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1336507
-bundleId: 2509393
+bundleId: 2525051
 url: https://shyguypy.shinyapps.io/shiny_test_app4/
-when: 1571337278.40614
+when: 1571755736.45278
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: output/ potomac.ts.df2.csv|output/ potomac.ts.df5.csv
